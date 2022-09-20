@@ -20,7 +20,13 @@ public class Estudiante {
     private String email;
 
     public Estudiante(Long id, String nombre, String apellido, String email) {
+        super();
         this.id = id;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.email = email;
+    }
+    public Estudiante(String nombre, String apellido, String email) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.email = email;
